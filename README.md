@@ -34,7 +34,6 @@ $ REPORT_GAS=true npx hardhat test
 ```
 
 ### Deploy
-
 Run deploy in hardhat network
 ```bash
 $ npx hardhat deploy
@@ -45,6 +44,10 @@ Run deploy in ropsten network
 $ npm run deploy:ropsten 
 ```
 
+Run deploy in ropsten network for new contract
+```bash
+$ npm run deploy:ropsten:new
+```
 ### Verification contract  
 
 Run verify in ropsten network

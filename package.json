@@ -16,6 +16,7 @@
     "verify:fuji": "hardhat --network fuji etherscan-verify --solc-input",
     "export:fuji": "hardhat --network fuji export --export deployments/fuji.json",
     "deploy:ropsten": "hardhat --network ropsten deploy",
+    "deploy:ropsten:new": "hardhat --network ropsten deploy --reset",
     "verify:ropsten": "hardhat --network ropsten etherscan-verify --solc-input",
     "export:ropsten": "hardhat --network ropsten export --export deployments/ropsten.json"
   },
