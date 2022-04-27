@@ -40,16 +40,23 @@ const config: HardhatUserConfig = {
         coinmarketcap: process.env.COINMARKETCAP_API_KEY,
         token: process.env.TOKEN,
         gasPriceApi: process.env.GAS_PRICE_API,
-        enabled: process.env.REPORT_GAS === "true" ? true : false,
+        enabled: process.env.REPORT_GAS === "true",
         maxMethodDiff: 10,
     },
     networks: {
-        hardhat: {},
+        hardhat: {
+            accounts: {
+                mnemonic: process.env.MNEMONIC,
+            },
+        },
         localhost: {
             url: "http://127.0.0.1:8545",
+            accounts: {
+                mnemonic: process.env.MNEMONIC,
+            },
         },
         ropsten: {
-            url: "https://ropsten.infura.io/v3/eca6055033dc470bad59294fc368261b",
+            url: `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`,
             accounts: {
                 mnemonic: process.env.MNEMONIC,
             },

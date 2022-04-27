@@ -14,7 +14,10 @@
     "export:avalanche": "hardhat --network avalanche export --export deployments/avalanche.json",
     "deploy:fuji": "hardhat --network fuji deploy",
     "verify:fuji": "hardhat --network fuji etherscan-verify --solc-input",
-    "export:fuji": "hardhat --network fuji export --export deployments/fuji.json"
+    "export:fuji": "hardhat --network fuji export --export deployments/fuji.json",
+    "deploy:ropsten": "hardhat --network ropsten deploy",
+    "verify:ropsten": "hardhat --network ropsten etherscan-verify --solc-input",
+    "export:ropsten": "hardhat --network ropsten export --export deployments/fuji.json"
   },
   "devDependencies": {
     "@nomiclabs/buidler": "1.4.8",
@@ -47,5 +50,6 @@
     "ts-node": "10.2.1",
     "typechain": "5.1.2",
     "typescript": "4.4.2"
-  }
+  },
+  "dependencies": {}
 }

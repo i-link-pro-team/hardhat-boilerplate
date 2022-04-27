@@ -28,6 +28,29 @@ Run tests with command:
 $ npx hardhat test TEST_PATH
 ```
 
+Run tests and calculate gasPrice with command:
+```bash
+$ REPORT_GAS=true npx hardhat test
+```
+
+### Deploy
+
+Run deploy in hardhat network
+```bash
+$ npm run deploy
+```
+
+Run deploy in ropsten network
+```bash
+$ npm run deploy:ropsten 
+```
+
+### Verification contract  
+
+Run verify in ropsten network
+```bash
+$ npm run verify:ropsten
+```
 ## Useful links
 1. Hardhat documentation:
 https://hardhat.org/getting-started/
