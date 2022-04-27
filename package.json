@@ -17,7 +17,7 @@
     "export:fuji": "hardhat --network fuji export --export deployments/fuji.json",
     "deploy:ropsten": "hardhat --network ropsten deploy",
     "verify:ropsten": "hardhat --network ropsten etherscan-verify --solc-input",
-    "export:ropsten": "hardhat --network ropsten export --export deployments/fuji.json"
+    "export:ropsten": "hardhat --network ropsten export --export deployments/ropsten.json"
   },
   "devDependencies": {
     "@nomiclabs/buidler": "1.4.8",
