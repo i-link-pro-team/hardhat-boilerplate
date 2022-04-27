@@ -37,7 +37,7 @@ $ REPORT_GAS=true npx hardhat test
 
 Run deploy in hardhat network
 ```bash
-$ npm run deploy
+$ npx hardhat deploy
 ```
 
 Run deploy in ropsten network
