@@ -9,7 +9,7 @@ module.exports = async function (hre: HardhatRuntimeEnvironment) {
     const { deployer } = await getNamedAccounts();
     const balance = await ethers.provider.getBalance(deployer)
 
-    console.log(`Deployer: ${deployer} , balance: ${balance} `)
+    console.log(`Deployer: ${deployer} , balance: ${ethers.utils.formatEther(balance)} `)
 
     const name = 'ERC20Mock'
     const symbol = 'ERC'
