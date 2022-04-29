@@ -57,3 +57,9 @@ $ npm run verify:ropsten
 ## Useful links
 1. Hardhat documentation:
 https://hardhat.org/getting-started/
+2. Style Guide:
+https://docs.soliditylang.org/en/v0.8.13/style-guide.html#style-guide
+3. Common Patterns:
+https://docs.soliditylang.org/en/v0.8.13/common-patterns.html
+4. Security Considerations:
+https://docs.soliditylang.org/en/v0.8.13/security-considerations.html#security-considerations
